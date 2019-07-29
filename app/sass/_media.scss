@@ -1,0 +1,177 @@
+@import 'vars';
+
+/*==========  Desktop First  ==========*/
+
+@media only screen and (max-width: 1200px) {
+    .main-page .header {
+        height: auto;
+    }
+
+    iframe {
+        height: 234px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .menu {
+        display: none;
+        li {
+            margin-right: 0;
+        }
+    }
+    .search__icon {
+        display: none;
+    }
+    .menu-mobile__btn {
+        display: block;
+    }
+    #s{
+        &-about, &-terms, &-discuss, &-committee, &-cost, &-fee, &-location, &-contact, &-registration {
+            padding: 10% 0;
+        }
+        &-committee {
+            .h2 {
+                padding-bottom: 7%;
+            }
+        }
+    }
+    .footer-right {
+        margin-top: 20px;
+        text-align: center;
+    }
+    #s-fee {
+        .org-fee__text {
+            padding-bottom: 8%;
+        }
+    }
+
+    .location .location-column {
+        padding: 0;
+        background-color: #f7f8fa;
+        .h3 {
+            margin-top: 25px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-page .header {
+        min-height: 500px;
+    }
+    .header-content {
+        .h1 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 18px;
+        }
+        .h3 {
+            font-size: 25px;
+        }
+
+        .button-header {
+            padding: 14px 35px;
+        }
+    }
+
+    .footer-left {
+        text-align: center;
+    }
+    .footer-distributed .footer-left p {
+        margin-top: 10px;
+    }
+
+    .fee-doc {
+        .button-more {
+            width: 100%;
+        }
+    }
+
+    .register .register__btn, .thesis .thesis__btn {
+        margin-top: 15px;
+    }
+
+    .register .register__btn .button-more, .thesis .thesis__btn .button-more {
+        padding: 11px 27px;
+    }
+
+    .thesis {
+        margin-top: 40px;
+    }
+
+    .logo {
+        margin-top: 2px;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    .main-page .header {
+        min-height: 650px;
+        height: auto;
+    }
+    .header-content {
+        padding-top: 8%;
+        .h1 {
+            font-size: 21px;
+        }
+        p {
+            font-size: 13px;
+        }
+        .h3 {
+            font-size: 16px;
+        }
+
+        .button-header {
+            padding: 14px 35px;
+        }
+    }
+
+    #s-committee {
+        .h2 {
+            padding-bottom: 8%;
+        }
+        .committee-column {
+            margin-left: 10px;
+        }
+    }
+    .location .location-column {
+        .h3 {
+            font-size: 22px;
+        }
+        p {
+            font-size: 15px;
+        }
+    }
+
+    .registration-wrapper {
+        box-shadow: none;
+        .row {
+            margin: 0;
+        }
+    }
+}
+
+
+
+/*==========  Mobile First  ==========*/
+
+@media only screen and (min-width: 320px) {
+
+}
+
+@media only screen and (min-width: 576) {
+    
+}
+
+@media only screen and (min-width: 768px) {
+    
+}
+
+@media only screen and (min-width: 992px) {
+    
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
